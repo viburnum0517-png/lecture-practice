@@ -19,7 +19,8 @@
       "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/edbw-master_w1_교육자료 완성본.pdf' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/03_마스터과정/교육자료/master_w1_교육자료_완성본.pdf)",
       "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/zotkn_마스터 2nd 교육자료.pdf' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/03_마스터과정/교육자료/마스터_2nd_교육자료.pdf)",
       "Bash(mv C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/fvlgw-마스터_두번째_핸드아웃_실습안내.docx C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/03_마스터과정/실습_과제/마스터_두번째_핸드아웃_실습안내.docx)",
-      "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/fvqp_master_3rd_경영 실습5 대시보드.docx' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/03_마스터과정/실습_과제/master_3rd_경영_실습5_대시보드.docx)"
+      "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/fvqp_master_3rd_경영 실습5 대시보드.docx' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/03_마스터과정/실습_과제/master_3rd_경영_실습5_대시보드.docx)",
+      "Bash(gh auth:*)"
     ]
   }
 }
