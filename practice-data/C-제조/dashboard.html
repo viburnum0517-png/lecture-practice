@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>제조 불량 대시보드</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+  body { font-family: 'Segoe UI', sans-serif; background: #f5f7fa; margin: 0; padding: 20px; }
+  h1 { color: #2c3e50; text-align: center; margin-bottom: 30px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 1200px; margin: 0 auto; }
+  .card { background: white; border-radius: 12px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  .card h2 { color: #34495e; font-size: 16px; margin: 0 0 16px 0; border-left: 4px solid #3498db; padding-left: 10px; }
+  .summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; max-width: 1200px; margin: 0 auto 24px; }
+  .stat { background: white; border-radius: 12px; padding: 20px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  .stat .num { font-size: 32px; font-weight: bold; color: #e74c3c; }
+  .stat .label { color: #7f8c8d; font-size: 14px; margin-top: 4px; }
+  .full { grid-column: 1 / -1; }
+</style>
+</head>
+<body>
+<h1>제조 불량 현황 대시보드</h1>
+
+<div class="summary">
+  <div class="stat"><div class="num">107</div><div class="label">총 불량 수량</div></div>
+  <div class="stat"><div class="num">2.9%</div><div class="label">평균 불량률</div></div>
+  <div class="stat"><div class="num">외관</div><div class="label">최다 불량 유형</div></div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>라인별 불량률 (%)</h2>
+    <canvas id="lineChart"></canvas>
+  </div>
+  <div class="card">
+    <h2>불량 유형 상위 5개</h2>
+    <canvas id="typeChart"></canvas>
+  </div>
+  <div class="card full">
+    <h2>날짜별 불량 추이</h2>
+    <canvas id="trendChart"></canvas>
+  </div>
+</div>
+
+<script>
+// 라인별 불량률
+new Chart(document.getElementById('lineChart'), {
+  type: 'bar',
+  data: {
+    labels: ['L1', 'L2', 'L3'],
+    datasets: [{
+      label: '불량률 (%)',
+      data: [3.3, 2.7, 2.6],
+      backgroundColor: ['#e74c3c', '#e67e22', '#f1c40f'],
+      borderRadius: 6
+    }]
+  },
+  options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, max: 5 } } }
+});
+
+// 불량 유형 상위 5개
+new Chart(document.getElementById('typeChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['외관', '치수', '용접', '도장', '기능'],
+    datasets: [{
+      data: [41, 21, 23, 13, 13],
+      backgroundColor: ['#e74c3c', '#3498db', '#2ecc71', '#f39c12', '#9b59b6']
+    }]
+  },
+  options: { responsive: true, plugins: { legend: { position: 'right' } } }
+});
+
+// 날짜별 불량 추이
+new Chart(document.getElementById('trendChart'), {
+  type: 'line',
+  data: {
+    labels: ['03-01', '03-02', '03-03'],
+    datasets: [
+      { label: 'L1', data: [12, 18, 16], borderColor: '#e74c3c', tension: 0.3, fill: false },
+      { label: 'L2', data: [12, 11, 14], borderColor: '#3498db', tension: 0.3, fill: false },
+      { label: 'L3', data: [11, 10, 11], borderColor: '#2ecc71', tension: 0.3, fill: false }
+    ]
+  },
+  options: { responsive: true, scales: { y: { beginAtZero: true } } }
+});
+</script>
+</body>
+</html>
