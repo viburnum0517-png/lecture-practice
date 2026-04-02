@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/01_기초과정/교육자료)",
+      "Bash(mkdir -p C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/01_기초과정/실습_과제)",
+      "Bash(mkdir -p C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/01_기초과정/참고자료)",
+      "Bash(mkdir -p C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/01_기초과정/데이터)",
+      "Bash(mkdir -p C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/02_심화과정/교육자료)",
+      "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/dqnw-기초 5주차 슬라이드 완성본.pptx' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/01_기초과정/교육자료/기초_5주차_슬라이드_완성본.pptx)",
+      "Bash(mv C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/igvcm_basic_w4_교육자료_final.pptx C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/01_기초과정/교육자료/basic_w4_교육자료_final.pptx)",
+      "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/twcl_기초과정 6회차 교육자료 파이널.pptx' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/01_기초과정/교육자료/기초과정_6회차_교육자료_파이널.pptx)",
+      "Bash(mv C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/tynfm-기초과정-7th-교육자료_V4.pptx C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/01_기초과정/교육자료/기초과정_7th_교육자료_V4.pptx)",
+      "Bash(mv C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/vmue_기초과정-week5-교육자료.pdf C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/01_기초과정/교육자료/기초과정_week5_교육자료.pdf)",
+      "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/wixu_심화과정-week3 교육자료_V4.pdf' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/02_심화과정/교육자료/심화과정_week3_교육자료_V4.pdf)",
+      "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/cwnr-심화_w2_제조 QC기준서.pdf' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/02_심화과정/참고자료/심화_w2_제조_QC기준서.pdf)",
+      "Bash(mv C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/hezb_심화과정_week3_Stitch소개.pdf C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/02_심화과정/참고자료/심화과정_week3_Stitch소개.pdf)",
+      "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/yhcdy-심화 third-제조_예시data.csv' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/02_심화과정/데이터/심화_third_제조_예시data.csv)",
+      "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/csclq-master-4th time_교육자료.pdf' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/03_마스터과정/교육자료/master_4th_교육자료.pdf)",
+      "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/edbw-master_w1_교육자료 완성본.pdf' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/03_마스터과정/교육자료/master_w1_교육자료_완성본.pdf)",
+      "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/zotkn_마스터 2nd 교육자료.pdf' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/03_마스터과정/교육자료/마스터_2nd_교육자료.pdf)",
+      "Bash(mv C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/fvlgw-마스터_두번째_핸드아웃_실습안내.docx C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/03_마스터과정/실습_과제/마스터_두번째_핸드아웃_실습안내.docx)",
+      "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/fvqp_master_3rd_경영 실습5 대시보드.docx' C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/03_마스터과정/실습_과제/master_3rd_경영_실습5_대시보드.docx)"
+    ]
+  }
+}

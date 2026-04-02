@@ -1,0 +1,49 @@
+{
+  "course": {
+    "name": "성우하이텍 AI 마스터 과정",
+    "code": "lesson-a",
+    "version": "1.0.0",
+    "author": "tofukyung"
+  },
+  "modules": [
+    {
+      "id": "mw4",
+      "name": "MW4 — 첫걸음: Claude Code 설치 + GitHub + 간단 실습",
+      "sessions": ["mw4-1", "mw4-2", "mw4-3", "mw4-4"]
+    },
+    {
+      "id": "mw5",
+      "name": "MW5 — 심화: CLAUDE.md + 워크플로우 + Vercel 배포",
+      "sessions": ["mw5-1", "mw5-2", "mw5-3", "mw5-4"]
+    }
+  ],
+  "participants": {
+    "total": 16,
+    "groups": [
+      {
+        "id": "A",
+        "name": "R&D",
+        "count": 5,
+        "focus": "CAE/시뮬레이션/배터리"
+      },
+      {
+        "id": "B",
+        "name": "전략",
+        "count": 3,
+        "focus": "시장분석/M&A/KPI"
+      },
+      {
+        "id": "C",
+        "name": "제조",
+        "count": 6,
+        "focus": "품질관리/생산/금형"
+      },
+      {
+        "id": "D",
+        "name": "경영",
+        "count": 2,
+        "focus": "투자/구매/예산"
+      }
+    ]
+  }
+}
