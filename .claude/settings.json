@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "_comment_permissions": "git-teacher 플러그인과 Claude 네이티브 Git 워크플로우가 초보 수강생 PC에서 매끄럽게 동작하도록 사전 승인 목록. 수강생이 매 git/gh 명령마다 승인 팝업을 만나지 않도록 project-scope로 허용합니다. 위험한 명령(rm -rf, curl, sudo 등)은 allow하지 않습니다.",
+  "_comment_marketplaces_removed": "v2.4 설계: extraKnownMarketplaces 블록은 제거됐습니다. 수강생이 Practice 02에서 3개 마켓 URL(gptaku, superpowers-marketplace, tofukyung-plugins)을 직접 타이핑하여 등록하는 흐름으로 전환했습니다. 자동 등록 대신 '직접 등록 경험'이 학습 목표입니다.",
+  "_comment_obsidian_mcp": "MW6 옵시디언 실습용. vault 경로는 이 레포 루트(=lesson-a 폴더)와 동일. 수강생이 VSCode에서 연 폴더와 옵시디언에서 연 vault가 같은 폴더여야 합니다.",
+  "mcpServers": {
+    "obsidian": {
+      "command": "npx",
+      "args": ["-y", "obsidian-mcp@1.0.6"],
+      "env": {
+        "OBSIDIAN_VAULT_PATH": "."
+      }
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(gh:*)",
+      "Bash(git)",
+      "Bash(gh)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(pwd)",
+      "Bash(echo:*)",
+      "Bash(mkdir:*)",
+      "Bash(touch:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(which:*)",
+      "Read(**)",
+      "Write(**)",
+      "Edit(**)",
+      "Glob(**)",
+      "Grep(**)",
+      "mcp__obsidian__*"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(sudo:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)"
+    ]
+  }
+}

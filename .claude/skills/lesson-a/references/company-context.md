@@ -60,7 +60,7 @@ disable-model-invocation: true
 ```
 1. /plugin marketplace add https://github.com/fivetaku/gptaku_plugins.git
 2. /plugin install 바르다-깃선생
-3. /plugin install docs-guide
+3. /plugin install deep-research
 4. /plugin marketplace add https://github.com/treylom/tofukyung-plugins.git
 5. /plugin install tofukyung-plugins
 ```
